@@ -2,11 +2,11 @@
 #include <stddef.h>
 
 /**
- * insert_node -  number into a sorted singly linked list.
+ * insert_node - inserts number into a sorted singly linked list.
  *
  * @head: pointer to head pointer
- * @number: number inserted
- * Return:
+ * @number: number to insert
+ * Return: listint_t*
  */
 
 listint_t *insert_node(listint_t **head, int number)
@@ -50,4 +50,4 @@ listint_t *insert_node(listint_t **head, int number)
 	prev->next = new;
 
 	return (new);
-}i
+}
